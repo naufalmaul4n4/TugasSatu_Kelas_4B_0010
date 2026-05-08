@@ -26,6 +26,13 @@ h1{
     border-radius: 4px;
 }
 
+#inputDate {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
 input{
     flex: 1;
 }
