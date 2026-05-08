@@ -58,6 +58,10 @@ btnTambah.addEventListener("click", function(){
     };
 
     const actionGroup = document.createElement("div");
+    actionGroup.className = "btn-group";
+    actionGroup.appendChild(statusBtn);
+    actionGroup.appendChild(btnEdit);
+    actionGroup.appendChild(btnHapus);
 
 
 
