@@ -68,5 +68,7 @@ btnTambah.addEventListener("click", function(){
 document.getElementById("btnSimpanEdit").onclick = function() {
     const newName = document.getElementById("editValue").value;
     const newDate = document.getElementById("editDate").value;
+    currentLi.querySelector("strong").innerText = newName;
+    currentLi.querySelector("small").innerText = newDate;
 }
 
