@@ -21,6 +21,9 @@ btnTambah.addEventListener("click", function(){
     inputValue.value = "";
     inputValue.focus();
 
+    const content = document.createElement("div");
+    content.innerHTML = `<strong>${inputValue.value}</strong> <br> <small>${inputDate.value}</small>`;
+
 
 
 })
