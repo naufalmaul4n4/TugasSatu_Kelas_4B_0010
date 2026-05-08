@@ -63,3 +63,10 @@ li {
     justify-content: space-between;
     align-items: center;
 }
+
+.btn-group button {
+    margin-left: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+}
