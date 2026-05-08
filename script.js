@@ -1,11 +1,12 @@
 const inputValue = document.getElementById("inpuTask");
 const btnTambah = document.getElementById("btnTambahTodo");
 const daftarTugas = document.getElementById("listTugas");
-const inputDate = document.getElementById("inputDate");
+const inpuDate = document.getElementById("inputDate");
+
 
 btnTambah.addEventListener("click", function(){
 
-    if(inputValue.value === ""){
+    if(inputValue.value === "" || inpuDate.value === ""){
         alert("Input tidak boleh kosong");
         return;
     }
