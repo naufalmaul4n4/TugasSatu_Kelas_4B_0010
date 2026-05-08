@@ -63,7 +63,8 @@ btnTambah.addEventListener("click", function(){
     inputValue.value = "";
     inputDate.value = "";
 
-
-
 });
+
+document.getElementById("btnSimpanEdit").onclick = function() {
+}
 
