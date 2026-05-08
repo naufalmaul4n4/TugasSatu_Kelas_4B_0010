@@ -3,6 +3,7 @@ const btnTambah = document.getElementById("btnTambahTodo");
 const daftarTugas = document.getElementById("listTugas");
 const inpuDate = document.getElementById("inputDate");
 
+let currentLi = null;
 
 btnTambah.addEventListener("click", function(){
 
@@ -12,14 +13,6 @@ btnTambah.addEventListener("click", function(){
     }
 
     const listbaru = document.createElement("li");
-    const span = document.createElement("span")
-    span.innerHTML = inputValue.value;
-    
-    listbaru.appendChild(span);
-    daftarTugas.appendChild(listbaru)
-
-    inputValue.value = "";
-    inputValue.focus();
 
     const content = document.createElement("div");
     content.innerHTML = `<strong>${inputValue.value}</strong> <br> <small>${inputDate.value}</small>`;
@@ -62,6 +55,13 @@ btnTambah.addEventListener("click", function(){
     actionGroup.appendChild(statusBtn);
     actionGroup.appendChild(btnEdit);
     actionGroup.appendChild(btnHapus);
+    
+    listbaru.appendChild(content);
+    listbaru.appendChild(actionGroup);
+    daftarTugas.appendChild(listbaru);
+
+    inputValue.value = "";
+    inputDate.value = "";
 
 
 
