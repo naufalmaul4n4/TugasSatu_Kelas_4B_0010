@@ -42,6 +42,9 @@ btnTambah.addEventListener("click", function(){
 
     const btnEdit = document.createElement("button");
     btnEdit.innerText = "Edit";
+    btnEdit.onclick = function() {
+        currentLi = listbaru;
+    };
 
 
 
