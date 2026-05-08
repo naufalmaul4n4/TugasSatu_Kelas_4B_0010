@@ -46,6 +46,7 @@ btnTambah.addEventListener("click", function(){
         currentLi = listbaru;
         document.getElementById("editValue").value = content.querySelector("strong").innerText;
         document.getElementById("editDate").value = content.querySelector("small").innerText;
+        document.getElementById("modalEdit").style.display = "block";
     };
 
 
