@@ -51,6 +51,8 @@ btnTambah.addEventListener("click", function(){
 
     const btnHapus = document.createElement("button");
     btnHapus.innerText = "Hapus";
+    btnHapus.style.backgroundColor = "red";
+    btnHapus.style.color = "white";
 
 
 
