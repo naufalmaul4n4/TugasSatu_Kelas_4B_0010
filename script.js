@@ -24,6 +24,10 @@ btnTambah.addEventListener("click", function(){
     const content = document.createElement("div");
     content.innerHTML = `<strong>${inputValue.value}</strong> <br> <small>${inputDate.value}</small>`;
 
+    const statusBtn = document.createElement("button");
+    statusBtn.innerText = "Progress";
+    statusBtn.style.backgroundColor = "#ffcc00";
+
 
 
 })
