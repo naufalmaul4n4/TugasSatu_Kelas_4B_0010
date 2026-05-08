@@ -44,6 +44,7 @@ btnTambah.addEventListener("click", function(){
     btnEdit.innerText = "Edit";
     btnEdit.onclick = function() {
         currentLi = listbaru;
+        document.getElementById("editValue").value = content.querySelector("strong").innerText;
     };
 
 
