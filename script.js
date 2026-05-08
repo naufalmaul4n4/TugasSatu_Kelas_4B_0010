@@ -73,3 +73,7 @@ document.getElementById("btnSimpanEdit").onclick = function() {
     document.getElementById("modalEdit").style.display = "none";
 }
 
+document.getElementById("btnBatalEdit").onclick = function() {
+    document.getElementById("modalEdit").style.display = "none";
+};
+
