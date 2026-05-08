@@ -57,7 +57,9 @@ btnTambah.addEventListener("click", function(){
         listbaru.remove();
     };
 
+    const actionGroup = document.createElement("div");
 
 
-})
+
+});
 
