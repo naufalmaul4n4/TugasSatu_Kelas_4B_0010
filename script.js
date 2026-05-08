@@ -70,5 +70,6 @@ document.getElementById("btnSimpanEdit").onclick = function() {
     const newDate = document.getElementById("editDate").value;
     currentLi.querySelector("strong").innerText = newName;
     currentLi.querySelector("small").innerText = newDate;
+    document.getElementById("modalEdit").style.display = "none";
 }
 
