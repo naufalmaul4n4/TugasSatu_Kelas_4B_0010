@@ -49,6 +49,9 @@ btnTambah.addEventListener("click", function(){
         document.getElementById("modalEdit").style.display = "block";
     };
 
+    const btnHapus = document.createElement("button");
+    btnHapus.innerText = "Hapus";
+
 
 
 })
