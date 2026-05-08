@@ -33,6 +33,10 @@ btnTambah.addEventListener("click", function(){
             statusBtn.innerText = "Done";
             statusBtn.style.backgroundColor = "#99ff99";
             content.classList.add("done-text");
+        } else {
+            statusBtn.innerText = "Progress";
+            statusBtn.style.backgroundColor = "#ffcc00";
+            content.classList.remove("done-text");
         }
     };
 
