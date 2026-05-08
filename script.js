@@ -1,6 +1,7 @@
 const inputValue = document.getElementById("inpuTask");
 const btnTambah = document.getElementById("btnTambahTodo");
 const daftarTugas = document.getElementById("listTugas");
+const inputDate = document.getElementById("inputDate");
 
 btnTambah.addEventListener("click", function(){
 
