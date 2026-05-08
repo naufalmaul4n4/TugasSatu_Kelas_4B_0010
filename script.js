@@ -53,6 +53,9 @@ btnTambah.addEventListener("click", function(){
     btnHapus.innerText = "Hapus";
     btnHapus.style.backgroundColor = "red";
     btnHapus.style.color = "white";
+    btnHapus.onclick = function() {
+        listbaru.remove();
+    };
 
 
 
